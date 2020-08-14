@@ -33,11 +33,11 @@ description: ""
 github:
   username: bulingfeng
 swiftype:
-  searchId: iXZyPokVfxFaBTvi64Y6
-gitment:
-    repo: blog
-    client_id: a6fb73b3e790e234bab8
-    client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+  searchId: CzzNW78uCqEiLsmB8yqN
+# gitment:
+#     repo: blog
+#     client_id: a6fb73b3e790e234bab8
+#     client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
 
 url: "https://bulingfeng.github.io"
 imgrepo: "https://bulingfeng.github.io/static/img"
