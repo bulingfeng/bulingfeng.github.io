@@ -1,7 +1,7 @@
 ---
 title: Spring Framework的核心模块有哪些
 tags: java Spring-Framework
-categories: Spring Framework
+categories: Spring-Framework
 ---
 
 * TOC
