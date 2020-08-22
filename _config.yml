@@ -34,10 +34,10 @@ github:
   username: bulingfeng
 swiftype:
   searchId: CzzNW78uCqEiLsmB8yqN
-# gitment:
-#     repo: blog
-#     client_id: a6fb73b3e790e234bab8
-#     client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+gitment:
+    repo: bulingfeng.github.io
+    client_id: 1bece54ee79aa1efc585
+    client_secret: 24140c9089bc8244231fc67a3bf9ea27811f7cd1
 
 url: "https://bulingfeng.github.io"
 imgrepo: "https://bulingfeng.github.io/static/img"
