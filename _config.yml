@@ -35,7 +35,7 @@ github:
 swiftype:
   searchId: CzzNW78uCqEiLsmB8yqN
 gitment:
-    repo: https://github.com/bulingfeng/gitment-comments.git
+    repo: gitment-comments
     client_id: 1bece54ee79aa1efc585
     client_secret: 24140c9089bc8244231fc67a3bf9ea27811f7cd1
 
