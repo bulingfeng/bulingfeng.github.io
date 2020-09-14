@@ -40,7 +40,7 @@ gitment:
     client_secret: 24140c9089bc8244231fc67a3bf9ea27811f7cd1
 
 url: "http://bulingfeng.com/"
-imgrepo: "https://bulingfeng.github.io/static/img"
+imgrepo: "http://bulingfeng.github.io/static/img"
 
 
 #url: "http://127.0.0.1:4000"
