@@ -1,5 +1,5 @@
 ---
-title: SpringBoot自动配置
+title: SpringBoot加载自动配置类原理
 tags: 源码分析 spring-boot 
 categories: spring-boot
 ---
