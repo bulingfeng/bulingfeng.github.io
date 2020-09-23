@@ -26,94 +26,94 @@ categories: spring-boot
 
 ``` java
 /**
-	 * Return the {@link AutoConfigurationEntry} based on the {@link AnnotationMetadata}
-	 * of the importing {@link Configuration @Configuration} class.
-	 * @param annotationMetadata the annotation metadata of the configuration class
-	 * @return the auto-configurations that should be imported
-	 */
-	protected AutoConfigurationEntry getAutoConfigurationEntry(AnnotationMetadata annotationMetadata) {
-		if (!isEnabled(annotationMetadata)) {
-			return EMPTY_ENTRY;
-		}
-		AnnotationAttributes attributes = getAttributes(annotationMetadata);
-		List<String> configurations = getCandidateConfigurations(annotationMetadata, attributes);// 这个方法是获取加载自动配置方法。进入getCandidateConfigurations
-		configurations = removeDuplicates(configurations);
-		Set<String> exclusions = getExclusions(annotationMetadata, attributes);
-		checkExcludedClasses(configurations, exclusions);
-		configurations.removeAll(exclusions);
-		configurations = getConfigurationClassFilter().filter(configurations);
-		fireAutoConfigurationImportEvents(configurations, exclusions);
-		return new AutoConfigurationEntry(configurations, exclusions);
-	}
+ * Return the {@link AutoConfigurationEntry} based on the {@link AnnotationMetadata}
+ * of the importing {@link Configuration @Configuration} class.
+ * @param annotationMetadata the annotation metadata of the configuration class
+ * @return the auto-configurations that should be imported
+ */
+protected AutoConfigurationEntry getAutoConfigurationEntry(AnnotationMetadata annotationMetadata) {
+    if (!isEnabled(annotationMetadata)) {
+        return EMPTY_ENTRY;
+    }
+    AnnotationAttributes attributes = getAttributes(annotationMetadata);
+    List<String> configurations = getCandidateConfigurations(annotationMetadata, attributes);// 这个方法是获取加载自动配置方法。进入getCandidateConfigurations
+    configurations = removeDuplicates(configurations);
+    Set<String> exclusions = getExclusions(annotationMetadata, attributes);
+    checkExcludedClasses(configurations, exclusions);
+    configurations.removeAll(exclusions);
+    configurations = getConfigurationClassFilter().filter(configurations);
+    fireAutoConfigurationImportEvents(configurations, exclusions);
+    return new AutoConfigurationEntry(configurations, exclusions);
+}
 ```
 
 ```java
 /**
-	 * Return the auto-configuration class names that should be considered. By default
-	 * this method will load candidates（申请） using {@link SpringFactoriesLoader} with
-	 * {@link #getSpringFactoriesLoaderFactoryClass()}.
-	 * @param metadata the source metadata
-	 * @param attributes the {@link #getAttributes(AnnotationMetadata) annotation
-	 * attributes}
-	 * @return a list of candidate configurations
-	 */
-	protected List<String> getCandidateConfigurations(AnnotationMetadata metadata, AnnotationAttributes attributes) {
+ * Return the auto-configuration class names that should be considered. By default
+ * this method will load candidates（申请） using {@link SpringFactoriesLoader} with
+ * {@link #getSpringFactoriesLoaderFactoryClass()}.
+ * @param metadata the source metadata
+ * @param attributes the {@link #getAttributes(AnnotationMetadata) annotation
+ * attributes}
+ * @return a list of candidate configurations
+ */
+protected List<String> getCandidateConfigurations(AnnotationMetadata metadata, AnnotationAttributes attributes) {
 // 进入loadFactoryNames
 List<String> configurations = SpringFactoriesLoader.loadFactoryNames(getSpringFactoriesLoaderFactoryClass(),
-				getBeanClassLoader());
-		Assert.notEmpty(configurations, "No auto configuration classes found in META-INF/spring.factories. If you "
-				+ "are using a custom packaging, make sure that file is correct.");
-		return configurations;
-	}
+            getBeanClassLoader());
+    Assert.notEmpty(configurations, "No auto configuration classes found in META-INF/spring.factories. If you "
+            + "are using a custom packaging, make sure that file is correct.");
+    return configurations;
+}
 ```
 
 ```
 /**
-	 * Load the fully qualified class names of factory implementations of the
-	 * given type from {@value #FACTORIES_RESOURCE_LOCATION}, using the given
-	 * class loader.(加载了jar包内位于FACTORIES_RESOURCE_LOCATION中需要自动配置类，靠使用classloarder)
-	 * @param factoryType the interface or abstract class representing the factory
-	 * @param classLoader the ClassLoader to use for loading resources; can be
-	 * {@code null} to use the default
-	 * @throws IllegalArgumentException if an error occurs while loading factory names
-	 * @see #loadFactories
-	 */
-	public static List<String> loadFactoryNames(Class<?> factoryType, @Nullable ClassLoader classLoader) {
-		String factoryTypeName = factoryType.getName();
-		return loadSpringFactories(classLoader).getOrDefault(factoryTypeName, Collections.emptyList());
-	}
+ * Load the fully qualified class names of factory implementations of the
+ * given type from {@value #FACTORIES_RESOURCE_LOCATION}, using the given
+ * class loader.(加载了jar包内位于FACTORIES_RESOURCE_LOCATION中需要自动配置类，靠使用classloarder)
+ * @param factoryType the interface or abstract class representing the factory
+ * @param classLoader the ClassLoader to use for loading resources; can be
+ * {@code null} to use the default
+ * @throws IllegalArgumentException if an error occurs while loading factory names
+ * @see #loadFactories
+ */
+public static List<String> loadFactoryNames(Class<?> factoryType, @Nullable ClassLoader classLoader) {
+    String factoryTypeName = factoryType.getName();
+    return loadSpringFactories(classLoader).getOrDefault(factoryTypeName, Collections.emptyList());
+}
 
-	private static Map<String, List<String>> loadSpringFactories(@Nullable ClassLoader classLoader) {
-		MultiValueMap<String, String> result = cache.get(classLoader);
-		if (result != null) {
-			return result;
-		}
+private static Map<String, List<String>> loadSpringFactories(@Nullable ClassLoader classLoader) {
+    MultiValueMap<String, String> result = cache.get(classLoader);
+    if (result != null) {
+        return result;
+    }
 
-		try {
-			// 加载了FACTORIES_RESOURCE_LOCATION 内部的所有配置的类
-			Enumeration<URL> urls = (classLoader != null ?
-					classLoader.getResources(FACTORIES_RESOURCE_LOCATION) :
-					ClassLoader.getSystemResources(FACTORIES_RESOURCE_LOCATION));
-			result = new LinkedMultiValueMap<>();
-			while (urls.hasMoreElements()) {
-				URL url = urls.nextElement();
-				UrlResource resource = new UrlResource(url);
-				Properties properties = PropertiesLoaderUtils.loadProperties(resource);
-				for (Map.Entry<?, ?> entry : properties.entrySet()) {
-					String factoryTypeName = ((String) entry.getKey()).trim();
-					for (String factoryImplementationName : StringUtils.commaDelimitedListToStringArray((String) entry.getValue())) {
-						result.add(factoryTypeName, factoryImplementationName.trim());
-					}
-				}
-			}
-			cache.put(classLoader, result);
-			return result;
-		}
-		catch (IOException ex) {
-			throw new IllegalArgumentException("Unable to load factories from location [" +
-					FACTORIES_RESOURCE_LOCATION + "]", ex);
-		}
-	}
+    try {
+        // 加载了FACTORIES_RESOURCE_LOCATION 内部的所有配置的类
+        Enumeration<URL> urls = (classLoader != null ?
+                classLoader.getResources(FACTORIES_RESOURCE_LOCATION) :
+                ClassLoader.getSystemResources(FACTORIES_RESOURCE_LOCATION));
+        result = new LinkedMultiValueMap<>();
+        while (urls.hasMoreElements()) {
+            URL url = urls.nextElement();
+            UrlResource resource = new UrlResource(url);
+            Properties properties = PropertiesLoaderUtils.loadProperties(resource);
+            for (Map.Entry<?, ?> entry : properties.entrySet()) {
+                String factoryTypeName = ((String) entry.getKey()).trim();
+                for (String factoryImplementationName : StringUtils.commaDelimitedListToStringArray((String) entry.getValue())) {
+                    result.add(factoryTypeName, factoryImplementationName.trim());
+                }
+            }
+        }
+        cache.put(classLoader, result);
+        return result;
+    }
+    catch (IOException ex) {
+        throw new IllegalArgumentException("Unable to load factories from location [" +
+                FACTORIES_RESOURCE_LOCATION + "]", ex);
+    }
+}
 ```
 
 2、加载配置文件的位置
@@ -151,7 +151,7 @@ org.springframework.boot.diagnostics.FailureAnalyzers
 不管是使用properties还是yml文件都有提示功能，那么如果知道某个自动配置都有哪些配置，并且具体的配置的含义是什么呢？
 
 那么来到**spring-boot-autoconfig**包中看对对于配置类。如图:
-![spring-boot-autoconfig类](https://bulingfeng.com/static/img/springboot/circle-queue.jpg)
+![spring-boot-autoconfig类](https://bulingfeng.com/static/img/springboot/spring-boot-autoconfig-class.png)
 
 比如想查看elasticsearch中的配置，打开ElasticsearchRestClientProperties.class。
 
