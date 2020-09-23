@@ -186,3 +186,30 @@ spring:
 
 可以发现prefix的值和该类的熟悉就是配置文件yml中可以配置的属性，以及各个属性的含义。其他自动化配置也是一样，大多数是在*Properties和Configurations中。
 
+## 注意事项
+并不是说自动加载了一些自动配置类，这些功能就会生效。检查生效的方法为：在配置文件打开debug模式即：
+debug:true。然后就可以看到那些已经生效哪些未生效。未生效的原因就是没有工程中没有导入与其对应的
+jar包。比如下面就是根据@ConditionalOnClass(Advice.class)是否有这个来作为生效条件。
+```java
+@Configuration(proxyBeanMethods = false)
+@ConditionalOnClass(Advice.class)
+static class AspectJAutoProxyingConfiguration {
+
+    @Configuration(proxyBeanMethods = false)
+    @EnableAspectJAutoProxy(proxyTargetClass = false)
+    @ConditionalOnProperty(prefix = "spring.aop", name = "proxy-target-class", havingValue = "false",
+            matchIfMissing = false)
+    static class JdkDynamicAutoProxyConfiguration {
+
+    }
+
+    @Configuration(proxyBeanMethods = false)
+    @EnableAspectJAutoProxy(proxyTargetClass = true)
+    @ConditionalOnProperty(prefix = "spring.aop", name = "proxy-target-class", havingValue = "true",
+            matchIfMissing = true)
+    static class CglibAutoProxyConfiguration {
+
+    }
+
+}
+```
