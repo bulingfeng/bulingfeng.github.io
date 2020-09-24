@@ -4,7 +4,10 @@ tags: 日志
 categories: spring-boot
 ---
 
-## 简介
+* TOC
+{:toc}
+
+## 1、简介
 
 ```
 spring默认使用的日志框架为：JCL。
@@ -22,13 +25,13 @@ http://www.slf4j.org/manual.html
 
 比如上图想使用slf4j做日志门面，而日志框架使用log4j。那么值需要在再导入一个适配的两者的jar，即slf4j-log412.jar。
 
-## 日志的配置
+## 2、日志的配置
 
 每一个日志框架都有各自的日志配置文件，**使用slf4j后，配置文件还是使用日志实现框架的配置文件即可。**
 
-## 统一框架中所使用的日志框架
+## 3、统一框架中所使用的日志框架
 
-## 问题
+### 问题
 
 日常开发的过程中避免不了引用别的框架，比如Spring，Hibernate。但是他们所使用的框架都不一样（而且容易查询日志框架冲突），那么为了统一日志框架的使用。我们需要做一些工作。下表是框架所使用的日志框架
 
@@ -37,7 +40,7 @@ http://www.slf4j.org/manual.html
 | Spring       | common-logging |
 | Hibernate    | jboss-logging  |
 
-## 统一日志框架的步骤
+## 4、统一日志框架的步骤
 
 **步骤：**
 
@@ -51,7 +54,7 @@ http://www.slf4j.org/manual.html
 
 
 
-## SpringBoot日志默认使用的日志框架
+## 5、SpringBoot日志默认使用的日志框架
 
 查看SpringBoot maven依赖的日志框架拓扑图如下：
 
@@ -63,7 +66,7 @@ http://www.slf4j.org/manual.html
 如果引入额外的框架使用的时候，只需要把该日志框架内的日志框架给移除（有pom的拓扑图知道是jul和log4j的框架），那么springboot工程就会默认使用logback框架来作为默认的日志框架。
 ```
 
-## 参考文档
+## 6、参考文档
 
 ```
 http://www.slf4j.org/legacy.html
