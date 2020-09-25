@@ -40,7 +40,7 @@ logback.xml是logback的原始的日志配置文件。logback-spring.xml是sprin
 
 ## 3、logback-spring.xml具体配置信息
 
-[logback-spring.xml][https://bulingfeng.com/static/img/log/logback-spring.xml]
+[logback-spring.xml](https://bulingfeng.com/static/img/log/logback-spring.xml)
 
 ## 4、参考文档
 
