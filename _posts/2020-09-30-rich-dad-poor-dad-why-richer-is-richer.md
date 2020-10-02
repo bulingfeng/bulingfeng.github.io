@@ -1,7 +1,7 @@
 ---
 title: 富爸爸穷爸爸之为什么富人越富
 tags: 为什么富人越富 
-categories: readbook
+categories: read-book
 ---
 
 * TOC
