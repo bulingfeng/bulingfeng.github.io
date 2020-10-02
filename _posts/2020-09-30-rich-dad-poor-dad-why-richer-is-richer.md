@@ -1,6 +1,6 @@
 ---
 title: 富爸爸穷爸爸之为什么富人越富
-tags: 为什么富人越富 
+tags: 投资 
 categories: read-book
 ---
 
