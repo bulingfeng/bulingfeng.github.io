@@ -42,3 +42,8 @@ curl -H "Content-Type:application/json" -XPOST -u elastic 'http://127.0.0.1:9200
 > 账号：elastic
 >
 > 密码：123456
+
+## 设置kibana密码
+> 账号：elastic
+>
+> 密码：123456
