@@ -44,6 +44,8 @@ curl -H "Content-Type:application/json" -XPOST -u elastic 'http://127.0.0.1:9200
 > 密码：123456
 
 ## 设置kibana密码
-> 账号：elastic
+> 修改配置文件kibana.yml
 >
-> 密码：123456
+> elasticsearch.username: "elastic"
+>
+> elasticsearch.password: "123456"
