@@ -19,6 +19,7 @@ categories: elasticsearch
 > 在文件末尾添加以下参数(添加这个参数以后一定要重启elasticsearch服务)：
 >
 > xpack.security.enabled: true
+> 
 > xpack.security.transport.ssl.enabled: true
 
 ## 设置密码
