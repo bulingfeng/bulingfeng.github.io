@@ -137,7 +137,7 @@ GET index-test-20201105/_search
 
 ```
 {
-  "took" : 0,
+  "took" : 1,
   "timed_out" : false,
   "_shards" : {
     "total" : 1,
@@ -147,16 +147,16 @@ GET index-test-20201105/_search
   },
   "hits" : {
     "total" : {
-      "value" : 5,
+      "value" : 2,
       "relation" : "eq"
     },
-    "max_score" : 1.0,
+    "max_score" : 0.087011375,
     "hits" : [
       {
         "_index" : "index-test-20201105",
         "_type" : "_doc",
         "_id" : "1",
-        "_score" : 1.0,
+        "_score" : 0.087011375,
         "_source" : {
           "postDate" : "2020-11-05T11:19:18.181Z",
           "user" : "bulingfeng",
@@ -166,50 +166,18 @@ GET index-test-20201105/_search
       {
         "_index" : "index-test-20201105",
         "_type" : "_doc",
-        "_id" : "2",
-        "_score" : 1.0,
-        "_source" : {
-          "postDate" : "2020-11-05T11:19:18.432Z",
-          "user" : "bulingfeng",
-          "content" : "谷歌地图之父加盟facebook"
-        }
-      },
-      {
-        "_index" : "index-test-20201105",
-        "_type" : "_doc",
-        "_id" : "3",
-        "_score" : 1.0,
-        "_source" : {
-          "postDate" : "2020-11-05T11:19:18.442Z",
-          "user" : "bulingfeng",
-          "content" : "谷歌地图创始人拉斯离开谷歌加盟facebook"
-        }
-      },
-      {
-        "_index" : "index-test-20201105",
-        "_type" : "_doc",
         "_id" : "4",
-        "_score" : 1.0,
+        "_score" : 0.087011375,
         "_source" : {
           "postDate" : "2020-11-05T11:19:18.450Z",
           "user" : "bulingfeng",
           "content" : "谷歌地图之父跳槽facebook与wave项目取消有关"
         }
-      },
-      {
-        "_index" : "index-test-20201105",
-        "_type" : "_doc",
-        "_id" : "5",
-        "_score" : 1.0,
-        "_source" : {
-          "postDate" : "2020-11-05T11:19:18.457Z",
-          "user" : "bulingfeng",
-          "content" : "谷歌地图之父拉斯加盟社交网站facebook"
-        }
       }
     ]
   }
 }
+
 
 ```
 
