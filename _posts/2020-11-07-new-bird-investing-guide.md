@@ -1,4 +1,12 @@
-# 韭菜的自我修养
+---
+title: 韭菜的自我修养
+tags:   投资
+categories: readbook
+---
+
+* TOC
+{:toc}
+
 
 ## 简介
 
