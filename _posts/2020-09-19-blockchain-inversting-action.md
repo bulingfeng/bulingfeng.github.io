@@ -1,5 +1,5 @@
 ---
-title: 区块链投机
+title: 区块链投资
 tags: 日常思考 区块链
 categories: 投资
 ---
