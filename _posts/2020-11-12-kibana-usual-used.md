@@ -1,13 +1,11 @@
-
 ---
-title: kibana常用的查询
+title: kibana常用查询
 tags:   elasticsearch kibana
 categories: kibana
 ---
 
 * TOC
 {:toc}
-
 
 1、无条件查询所有数据（es默认返回10条）
 
