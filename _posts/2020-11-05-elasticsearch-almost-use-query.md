@@ -1,6 +1,6 @@
 ---
 title: elasticsearch常用查询
-tags:   elasticsearch查询
+tags:   elasticsearch
 categories: elasticsearch
 ---
 
