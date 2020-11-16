@@ -42,7 +42,19 @@ logback.xml是logback的原始的日志配置文件。logback-spring.xml是sprin
 
 [logback-spring.xml](https://bulingfeng.com/static/img/log/logback-spring.xml)
 
-## 4、参考文档
+## 4、log日志路径的动态配置
+配置logback-spring.xml
+```xml
+<!--contextName一定需要和scope一致，这样才能会让配置中的生效-->
+    <contextName>context</contextName>
+    <springProperty scope="context" name="log.path" source="log.path"/>
+```
+配置yml或者properties
+```
+log:
+  path: /Users/bulingfeng/Desktop/log
+```
+## 5、参考文档
 
 > https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-logback-extensions
 
