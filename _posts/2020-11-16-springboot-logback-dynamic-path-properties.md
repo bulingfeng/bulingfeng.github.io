@@ -20,9 +20,10 @@ categories: spring-boot
 
 - 配置日志路径
 
-> log:
->
->   path: /home/logs
+```yml
+log:
+  path: /home/logs
+```
 
 - logback-spring.xml中添加配置
 
