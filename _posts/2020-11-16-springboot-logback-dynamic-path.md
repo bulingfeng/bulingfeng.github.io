@@ -40,13 +40,13 @@ log:
 
 **解决方案**
 
-1. 修改logback.xml文件名
+- 修改logback.xml文件名
 
 ```
 按照自己需求修改。比如我的就是logback-blf.xml
 ```
 
-2. 指定加载的logback配置文件
+- 指定加载的logback配置文件
 
 ```yml
 # 指定某个特定的配置文件
