@@ -53,7 +53,7 @@ PUT index-2020-source
 **导入测试数据**
 
 ```java
-		@Test
+	@Test
     public void insertDocumentToEs() throws IOException {
         String index="index-2020-source";
         List<String> documents= Arrays.asList("谷歌地图之父跳槽facebook",
