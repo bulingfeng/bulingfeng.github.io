@@ -475,6 +475,11 @@ GET index-2020-index/_search
 
 > 本项目测试使用的elasticseach版本为7.3.1。有博客说index有三种属性分别为analyzed,not_analyzed,no。而7.X版本中已经没有该选项，只有true和false两种选项。index=true可以被搜索，index=false则不可以被搜索。7.X对于分词有专门的关键字，分别为:analyzer,search_analyzer。
 
+**_all**
+> 这个参数已经在在es 6.0+已经弃用。具体使用请参考以下文档。
+>
+>https://stackoverflow.com/questions/57516759/in-elasticsearch-7-how-do-you-search-all-text-fields
+
 ## 参考文档
 
 >https://www.cnblogs.com/niutao/p/10909137.html
