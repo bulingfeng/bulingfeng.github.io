@@ -126,3 +126,13 @@ GET index-test-20201111/_search/
 }
 ```
 
+10、快速测试analyzer
+
+```java
+GET test-index/_analyze
+{
+  "text": ["2020-11-26"],
+  "analyzer": "ik_smart"
+}
+```
+
