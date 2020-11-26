@@ -84,10 +84,10 @@ GET index-test-english/_analyze
 
 ## 代码实操
 
-1、创建索引
+1、创建索引并且使用自定义分词器
 
 ```
-PUT /index-test-20201126-1
+PUT /index-test-english
 {
   "settings": {
     "analysis": {
@@ -125,7 +125,7 @@ PUT /index-test-20201126-1
 ```
     @Test
     public void insertDocumentToEs2() throws IOException {
-        String index="index-test-20201126-1";
+        String index="index-test-english";
         List<String> documents= Arrays.asList("I have two dogs"
         );
         int i=11;
@@ -139,7 +139,7 @@ PUT /index-test-20201126-1
 3、查询
 
 ```
-GET index-test-20201126-1/_search
+GET index-test-english/_search
 {
   "query": {
     "match": {
