@@ -1,4 +1,4 @@
-Hux Blog User Manual
+Bulingfeng Blog User Manual
 ====================
 
 * Basics
@@ -53,13 +53,13 @@ You can easily customize the blog by modifying `_config.yml`:
 
 ```yml
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog          # check out docs for more detail
+title: Bulingfeng Blog           # title of your website
+SEOTitle: Bulingfeng Blog          # check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
-github_username: huxpro     # modify this account to yours
-weibo_username: huxpro      # the footer woule be auto-updated.
+github_username: bulingfeng     # modify this account to yours
+#weibo_username: huxpro      # the footer woule be auto-updated.
 
 # Build settings
 paginate: 10                # nums of posts in one page
@@ -76,20 +76,7 @@ Metadata of posts are listed in a YAML style _front-matter_.
 
 For instance, [Hello 2015])(https://huangxuan.me/2015/01/29/hello-2015/) has the front-matter of this:
 
-```yml
----
-layout:     post
-title:      "Hello 2015"
-subtitle:   " \"Hello World, Hello Blog\""
-date:       2015-01-29 12:00:00
-author:     "Hux"
-header-img: "img/post-bg-2015.jpg"
-catalog: true
-tags:
-    - Life
-    - Meta
----
-```
+
 
 > Note: `tags` section can also be written as `tags: [Life, Meta]`.
 
@@ -239,22 +226,6 @@ Just checkout the code offered by Google/Baidu, and copy paste here, all the res
 (Google might ask for meta tag `google-site-verification`)
 
 
-### SEO Title
-
-Before V1.4, site setting `title` is not only used for displayed in Home Page and Navbar, but also used to generate the `<title>` in HTML.
-It's possible that you want the two things different. For me, my site-title is **“Hux Blog”** but I want the title shows in search engine is **“黄玄的博客 | Hux Blog”** which is multi-language.
-
-So, the SEO Title is introduced to solve this problem, you can set `SEOTitle` different from `title`, and it would be only used to generate HTML `<title>` and setting DuoShuo Sharing.
-
-
-FAQ
----
-
-#### cannot load such file -- jekyll-paginate
-
-This blog started in Jekyll 2 time when `jekyll-paginate` is standard. With Jekyll 3, it's a plugin we included in `_config.yml`.
-
-Make sure you installed it via plain `gem` CLI or Bundler.
 
 
 Releases
