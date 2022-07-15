@@ -109,3 +109,9 @@ page-mathjax: false
 #]
 
 theme: jekyll-theme-slate
+
+---
+layout: default
+comments: true
+# other options
+---
