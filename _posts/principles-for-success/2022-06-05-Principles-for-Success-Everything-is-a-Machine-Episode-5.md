@@ -1,3 +1,14 @@
+---
+title: "Principles for Success: Everything is a Machine | Episode 5"
+subtitle: "Everything is a Machine"
+layout: post
+author: "bulingfeng"
+header-style: text
+tags:
+- RAY DALIO
+- Principles for Success
+---
+
 # Principles for Success:Everything is a Machine | Episode 5
 
 BY RAY DALIO

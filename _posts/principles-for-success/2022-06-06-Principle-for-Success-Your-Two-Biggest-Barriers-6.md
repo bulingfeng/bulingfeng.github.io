@@ -1,4 +1,15 @@
-# Principle for Success:Your Two Biggest Barriers | Episode 6
+---
+title: "Principles for Success: Your Two Biggest Barriers | Episode 6"
+subtitle: "Your Two Biggest Barriers"
+layout: post
+author: "bulingfeng"
+header-style: text
+tags:
+- RAY DALIO
+- Principles for Success
+---
+
+# Principle for Success: Your Two Biggest Barriers | Episode 6
 
 BY RAY DALIO
 

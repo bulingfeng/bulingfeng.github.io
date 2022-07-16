@@ -1,4 +1,15 @@
-# Principles for Success:Struggle Well | Episode 8
+---
+title: "Principles for Success: Struggle Well | Episode 8"
+subtitle: "Struggle Well"
+layout: post
+author: "bulingfeng"
+header-style: text
+tags:
+- RAY DALIO
+- Principles for Success
+---
+
+# Principles for Success: Struggle Well | Episode 8
 
 BY RAY DALIO
 

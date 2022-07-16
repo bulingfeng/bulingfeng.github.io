@@ -1,3 +1,14 @@
+---
+title: "Principles for Success: Embrace Reality and Deal With It |Episode 2"
+subtitle: "Embrace Reality and Deal With It"
+layout: post
+author: "bulingfeng"
+header-style: text
+tags:
+- RAY DALIO
+- Principles for Success
+---
+
 # Principles for Success:Embrace Reality and Deal With It | Episode 2
 
 BY RAY DALIO

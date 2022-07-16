@@ -1,4 +1,15 @@
-# Principles for Success:Be Radically Open-Minded | Eepisode 7
+---
+title: "Principles for Success: Be Radically Open-Minded | Episode 7"
+subtitle: "Be Radically Open-Minded"
+layout: post
+author: "bulingfeng"
+header-style: text
+tags:
+- RAY DALIO
+- Principles for Success
+---
+
+# Principles for Success: Be Radically Open-Minded | Episode 7
 
 BY RAY DALIO
 

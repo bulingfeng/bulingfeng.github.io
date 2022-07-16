@@ -1,3 +1,14 @@
+---
+title: "Principles for Success: The Abyss | Episode 4"
+subtitle: "The Abyss"
+layout: post
+author: "bulingfeng"
+header-style: text
+tags:
+- RAY DALIO
+- Principles for Success
+---
+
 # Principles for Success:The Abyss | Episode 4
 
 We progress forward until we encounter setbacks. Whether or not we get out of them and continue forward or spiral downward depends on whether or not we're willing to face the failure objectively and make the right decisions to turn the loop upward again.

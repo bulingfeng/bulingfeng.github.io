@@ -1,4 +1,15 @@
-# Principles for Success:The Five Step Process | Episode 3
+---
+title: "Principles for Success: The Five Step Process |Episode 3"
+subtitle: "The Five Step Process"
+layout: post
+author: "bulingfeng"
+header-style: text
+tags:
+- RAY DALIO
+- Principles for Success
+---
+
+# Principles for Success: The Five Step Process | Episode 3
 
 BY RAY DALIO
 
