@@ -5,7 +5,7 @@ layout: post
 author: "bulingfeng"
 header-style: text
 tags:
--- 读书
+- 读书
 ---
 
 # The changing world order 中经典句子摘抄与思考
