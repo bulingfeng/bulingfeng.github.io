@@ -1,5 +1,5 @@
 ---
-title: "Principles for Success: Embrace Reality and Deal With It |Episode 2"
+title: "Principles for Success: Embrace Reality and Deal With It | Episode 2"
 subtitle: "Embrace Reality and Deal With It"
 layout: post
 author: "bulingfeng"

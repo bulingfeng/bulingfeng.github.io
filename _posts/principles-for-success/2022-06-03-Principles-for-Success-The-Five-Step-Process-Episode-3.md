@@ -1,5 +1,5 @@
 ---
-title: "Principles for Success: The Five Step Process |Episode 3"
+title: "Principles for Success: The Five Step Process | Episode 3"
 subtitle: "The Five Step Process"
 layout: post
 author: "bulingfeng"

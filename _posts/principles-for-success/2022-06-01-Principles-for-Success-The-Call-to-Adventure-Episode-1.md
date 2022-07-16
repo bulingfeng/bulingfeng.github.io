@@ -1,5 +1,5 @@
 ---
-title: "Principles for Success:The Call to Adventure|Episode 1"
+title: "Principles for Success: The Call to Adventure | Episode 1"
 subtitle: "The Call to Adventure"
 layout: post
 author: "bulingfeng"
