@@ -7,7 +7,6 @@ header-style: text
 tags:
 - 读书
 ---
-
 # The changing world order 中经典句子摘抄与思考
 
 ## 2022-06-05
