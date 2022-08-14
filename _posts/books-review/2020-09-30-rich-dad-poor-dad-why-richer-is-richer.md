@@ -20,7 +20,7 @@ tags:
 > 低利率告诉我：“快去借钱吧，钱现在正在打折呢”。
 
 4、 四个交税人群为：
-![交税的四类人](https://bulingfeng.com/static/img/readbook/richdad/象限.png)
+![交税的四类人](https://bulingfeng.com/img/readbook/richdad/象限.png)
 >象限的纳税比例：E:40%。S:60%。B:20%。I：0%。
 
 5、 爱迪生语录：“我没有失败过，我只是找到一万种行不通的方法”。
