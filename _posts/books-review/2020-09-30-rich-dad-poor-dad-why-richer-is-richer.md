@@ -5,7 +5,6 @@ layout: post
 author: "bulingfeng"
 header-style: text
 tags:
-- 读书
 - 穷爸爸富爸爸
 ---
 
