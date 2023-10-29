@@ -58,21 +58,21 @@ When this annotation is declared at the class level, it applies as a default to 
 
 ### 同一个类中的事务互相调用
 
-```sql
-    public void method1() throws FileNotFoundException {
-        TableA a=new TableA();
-        a.setName("method1");
-        tableAMapper.insert(a);
-        method2();
-    }
+```java
+  public void method1() throws FileNotFoundException {
+      TableA a=new TableA();
+      a.setName("method1");
+      tableAMapper.insert(a);
+      method2();
+  }
 
-    @Transactional(rollbackFor = Exception.class)
-    public void method2() throws FileNotFoundException {
-        TableB b=new TableB();
-        b.setName("method2");
-        tableBMapper.insert(b);
-        throw new RuntimeException("method2发生异常");
-    }
+  @Transactional(rollbackFor = Exception.class)
+  public void method2() throws FileNotFoundException {
+      TableB b=new TableB();
+      b.setName("method2");
+      tableBMapper.insert(b);
+      throw new RuntimeException("method2发生异常");
+  }
 ```
 
 结果:
@@ -88,21 +88,21 @@ When this annotation is declared at the class level, it applies as a default to 
 如果想让两者的事务都起到效果，那么两个方法都要加上事务，代码如下
 
 ```java
-    @Transactional(rollbackFor = Exception.class)
-    public void method1() throws FileNotFoundException {
-        TableA a=new TableA();
-        a.setName("method1");
-        tableAMapper.insert(a);
-        method2();
-    }
+  @Transactional(rollbackFor = Exception.class)
+  public void method1() throws FileNotFoundException {
+      TableA a=new TableA();
+      a.setName("method1");
+      tableAMapper.insert(a);
+      method2();
+  }
 
-    @Transactional(rollbackFor = Exception.class)
-    public void method2() throws FileNotFoundException {
-        TableB b=new TableB();
-        b.setName("method2");
-        tableBMapper.insert(b);
-        throw new RuntimeException("method2发生异常");
-    }
+  @Transactional(rollbackFor = Exception.class)
+  public void method2() throws FileNotFoundException {
+      TableB b=new TableB();
+      b.setName("method2");
+      tableBMapper.insert(b);
+      throw new RuntimeException("method2发生异常");
+  }
 ```
 
 ### 检查性异常不会生效
