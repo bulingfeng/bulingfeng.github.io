@@ -1,3 +1,14 @@
+---
+title: "@Configuration的详细使用"
+subtitle: "@Configuration的详细使用"
+layout: post
+author: "bulingfeng"
+header-style: text
+tags:
+- SpringBoot
+- 技术
+---
+
 在讨论使用@Configuration之前呢，我先说下我使用的相关技术版本号，springboot的版本为:3.1.2;而这个版本对应的spring的版本是6.0;
 
 ## @Configuration的基本使用
