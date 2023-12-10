@@ -1,3 +1,14 @@
+---
+title: "SpringBoot常用注解"
+subtitle: "SpringBoot常用注解"
+layout: post
+author: "bulingfeng"
+header-style: text
+tags:
+- SpringBoot
+- 技术
+---
+
 ## @Import
 
 这个注解的使用条件就式在在使用的这个类上面必须是Spring-context中的bean对象。这个类可以注入你想要的任何类。并且注入的bean名称为class的全类名。
