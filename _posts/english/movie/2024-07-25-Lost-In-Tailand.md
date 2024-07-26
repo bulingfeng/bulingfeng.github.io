@@ -15,7 +15,7 @@ tags:
 > > 2. youtube上下载电影字幕的方式太简单了，这样自己只需要几秒钟就可以把整个电影的字幕都下载下来从而方面自己学习
 > > 3. 看好电影，然后再朗诵或者背诵字幕的时候或许都能够联想到电影中的画面，这样更有利于自己的语言记忆。
 
-The Supergas Petroleum Enhancer
+The Supergas **Petroleum** **Enhancer**
 
 The Supergas! It works!
 
@@ -47,7 +47,7 @@ She fought with Dandan, just to prove that she'd been to Ocean Park
 
 Dandan shoved her hard
 
-She fell, and cracked her head open
+She fell, and **cracked** her head open
 
 How could this happen?
 
@@ -79,8 +79,6 @@ The last time you knelt down to me was when you **proposed**
 
 It's funny
 
-Oh my!
-
 Xu, what are you doing?
 
 Get out!
@@ -107,7 +105,7 @@ What for?
 
 Has Mr. Zhou contacted you?
 
-No, not a word
+No, **not a word**
 
 Do you know where he is?
 
@@ -119,7 +117,7 @@ I didn't know you know!
 
 Enjoy your mano-o-mano. I'm leaving
 
-Let go of me!
+**Let go of me**!
 
 Didn't you say you're off to Thailand?
 
@@ -139,11 +137,11 @@ You believe the lies I told my wife?
 
 Our Mr. Zhou is in Thailand
 
-Your wife's pregnant and alone in Paris
+Your wife's **pregnant** and alone in Paris
 
 How can you not be worrying about her?
 
-Why were you arguing? Who was cheating?
+Why were you arguing? Who was **cheating**?
 
 We're married. Begging is normal
 
@@ -153,7 +151,7 @@ Yeah? Isn't your tooth hurting again?
 
 Your phone is charged
 
-Here's the Thai baht
+Here's the **Thai baht**
 
 You're on Little Red Riding Hood Tours
 
@@ -185,9 +183,7 @@ Somewhere in Chiang Mai
 
 Somewhere?
 
-He's **meditating**
-
-at one of the temples
+He's **meditating** at one of the temples
 
 At one of the temples?
 
@@ -219,9 +215,7 @@ Yes, sir
 
 Listen, Xiao Di?
 
-We'll go to Ocean Park
-
-in a few days
+We'll go to Ocean Park in a few days
 
 I don't believe you!
 
@@ -253,7 +247,7 @@ If I arrive in Thailand without a map,
 
 what am I gonna do in Chiang Mai's areas?
 
-Ladyboys!
+**Ladyboys**!
 
 What else would you do?
 
@@ -273,7 +267,7 @@ Send it right now
 
 Hey, we're taking off
 
-The phone will interfere with the plane
+**The phone will interfere with the plane**
 
 Turn it off
 
