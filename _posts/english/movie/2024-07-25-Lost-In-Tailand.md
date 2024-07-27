@@ -5,8 +5,7 @@ layout: post
 author: "bulingfeng"
 header-style: text
 tags:
-- 英语学习
-- 看电影学英语
+- 看视频学英语
 ---
 
 > 今天突然发现通过电影来学习英语其实是一件效果非常好的事情，原因如下：
