@@ -290,9 +290,7 @@ Yes, I will. Just one more second
 
 Sir, please turn off your phone now
 
-She doesn't buy it!
-
-todo-2024-07-25
+**She doesn't buy it!**
 
 Think about all these people's lives
 
@@ -300,7 +298,7 @@ Come on, turn it off
 
 Otherwise the plane won't take off
 
-Thank you for your cooperation
+**Thank you for your cooperation**
 
 It's okay
 
@@ -320,7 +318,7 @@ I turned off my phone!
 
 It's okay. We can do it when we land
 
-This is the immigration form
+**This is the immigration form**
 
 Please fill it in
 
@@ -340,9 +338,7 @@ Give me your passport
 
 Thank you!
 
-Why is everything
-
-in plastic bags?
+Why is everything in plastic bags?
 
 My mom says it rains a lot in Thailand,
 
@@ -354,19 +350,19 @@ You can call me Baobao
 
 The purpose of your trip to Thailand?
 
-Well, look, this is my bucket list!
+Well, look, **this is my bucket list**!
 
-First I want to see the Taj Mahal...
+First I want to see the **Taj Mahal**..
 
 Whoah! Hold on!
 
 The Taj Mahal is in India!
 
-Oh, okay, we'll scratch that one then
+Oh, okay, we'll **scratch** that one then
 
 Get a massage, ride an elephant...
 
-Go swimming, worship Buddha...
+Go swimming, **worship Buddha**...
 
 And I'm gonna fight a Thai kickboxer!
 
@@ -410,7 +406,7 @@ How can I help you, sir?
 
 Can I have some water?
 
-Yes, sir. I'll be right back
+Yes, sir. **I'll be right back**
 
 "Lost In Thailand"
 
@@ -474,9 +470,7 @@ That's fine
 
 Hey!
 
-Sorry to
-
-keep you waiting so long
+Sorry to keep you waiting so long
 
 Where the hell have you been?
 
@@ -484,7 +478,7 @@ Hey, listen up
 
 I spied a spy in the bathroom!
 
-You're insane!
+**You're insane!**
 
 Seriously, he was talking on his phone
 
@@ -512,9 +506,7 @@ It was a chance encounter
 
 But it was a pleasure meeting you
 
-One day I'll try
-
-your spring onion pancakes
+One day I'll try your spring onion pancakes
 
 Yeah
 
@@ -543,10 +535,6 @@ I can remember it. Just say it
 Can you repeat it back to me?
 
 No problem. I have it memorized. Bye
-
-Remember to
-
-send me your number too
 
 Enjoy your life with Fan Bingbing!
 
@@ -586,7 +574,7 @@ Use the loudspeaker!
 
 No, no, no, no...
 
-(Thai) Gentlemen don't honk their horns
+(Thai) **Gentlemen don't honk their horns**
 
 (Thai) Relax
 
@@ -654,17 +642,15 @@ Take it. A gift. Go!
 
 No. Mom said don't take from strangers
 
-Didn't she teach you obedience?
+Didn't she teach you **obedience**?
 
-My mom told me to be kind
-
-and to always do the right thing
+My mom told me to be kind and to always do the right thing
 
 Oh, you are really unbelievable!
 
-Are you being sarcastic?
+Are you being **sarcastic**?
 
-No. That was a compliment
+No. That was a **compliment**
 
 Then could you lend me some money?
 
@@ -678,7 +664,7 @@ that I realized I'd forgotten my wallet
 
 And I took a taxi just now to find you
 
-The driver's still waiting for the fare
+**The driver's still waiting for the fare**
 
 I promise I'll pay you back later
 
@@ -698,7 +684,7 @@ It's okay
 
 Listen, from now on,
 
-we're traveling companions
+**we're traveling companions**
 
 We'll go to Chiang Mai together
 
@@ -718,9 +704,7 @@ Let me pay for your hotel room
 
 On the road,
 
-people have to help each other
-
-Just like a team
+people have to help each other Just like a team
 
 My name is Xu Lang
 
@@ -740,7 +724,7 @@ Uhm... anything better?
 
 How about Potato and Mushroom?
 
-Let's stick with the Legends of Thailand
+**Let's stick with the Legends of Thailand**
 
 Can I have your passport, sir?
 
@@ -806,9 +790,7 @@ I can't think about it right now
 
 But I'm hungry.
 
-Go get dinner then
-
-I don't have any money
+Go get dinner then I don't have any money
 
 Help yourself
 
@@ -862,7 +844,7 @@ But Fan can't eat pancakes every day
 
 You don't understand, it's not easy
 
-There's a special way to knead the dough
+**There's a special way to knead the dough**
 
 And you need what kind of dough to use
 
@@ -876,7 +858,7 @@ how much do you sell one for?
 
 2.5 yuan
 
-What do the ingredients cost?
+**What do the ingredients cost?**
 
 Less than 1 yuan
 
@@ -888,9 +870,9 @@ That's a lot!
 
 That's on a slow day!
 
-Your net profit is 26,000 a month...
+**Your net profit is 26,000 a month...**
 
-You could make a lot if you franchised
+**You could make a lot if you franchised**
 
 That's right!
 
@@ -914,13 +896,11 @@ You'd go public in two years
 
 That's right I could!
 
-How about selling me the recipe?
+**How about selling me the recipe**?
 
 Sure
 
-My secret recipe is...
-
-that I have to make them all by myself
+My secret recipe is that I have to make them all by myself
 
 No hiring anyone and no freezing them,
 
@@ -966,11 +946,13 @@ So now you know what my job is
 
 Of course!
 
-You work for a TV shopping network!
+Your work for a TV shopping network!
 
 Do you think ladyboys
 
 were born as ladyboys?
+
+todo-2024-07-27
 
 Look behind you. They are ladyboys
 
